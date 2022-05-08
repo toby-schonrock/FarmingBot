@@ -27,7 +27,7 @@ scanwidth = 115
 scanheight = 13
 
 data = list(map(int, open("YourIsland.txt", "r").read().split(',')))
-clientKey = open("Bot.txt", "r").read().Trim()
+clientKey = open("Bot.txt", "r").read()
 
 def find_first(image):
     for y in range(startY, height):
